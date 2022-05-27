@@ -11,6 +11,8 @@
 		71679666283F799500625FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71679665283F799500625FA8 /* ContentView.swift */; };
 		71679668283F799800625FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71679667283F799800625FA8 /* Assets.xcassets */; };
 		7167966B283F799800625FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7167966A283F799800625FA8 /* Preview Assets.xcassets */; };
+		719C6C082841693700093609 /* WriteCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C6C072841693700093609 /* WriteCSV.swift */; };
+		719C6C0A2841808B00093609 /* CMMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C6C092841808B00093609 /* CMMotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		71679665283F799500625FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71679667283F799800625FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7167966A283F799800625FA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		719C6C072841693700093609 /* WriteCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteCSV.swift; sourceTree = "<group>"; };
+		719C6C092841808B00093609 /* CMMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMMotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				71679663283F799500625FA8 /* GetGyroDataApp.swift */,
 				71679665283F799500625FA8 /* ContentView.swift */,
+				719C6C092841808B00093609 /* CMMotionManager.swift */,
+				719C6C072841693700093609 /* WriteCSV.swift */,
 				71679667283F799800625FA8 /* Assets.xcassets */,
 				71679669283F799800625FA8 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				71679666283F799500625FA8 /* ContentView.swift in Sources */,
+				719C6C0A2841808B00093609 /* CMMotionManager.swift in Sources */,
+				719C6C082841693700093609 /* WriteCSV.swift in Sources */,
 				71679664283F799500625FA8 /* GetGyroDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

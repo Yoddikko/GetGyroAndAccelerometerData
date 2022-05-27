@@ -2,7 +2,7 @@
 //  GetGyroDataApp.swift
 //  GetGyroData
 //
-//  Created by Alessio Iodice on 26/05/22.
+//  Created by Yoddikko on 26/05/22.
 //
 
 import SwiftUI
