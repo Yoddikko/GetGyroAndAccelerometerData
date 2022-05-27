@@ -1,4 +1,4 @@
-# GetGyroData & Accelerometer data
+# GetGyroData & Accelerometer data -> to CSV
 Easy way to get gyroscope and accelerometer data and write the output on a CSV. 
 I used CoreMotion for accessing the data and SwiftUI for the UI.
 I made this sample code because the one I found on the documentation or the projects aren't really working or updated. 
@@ -12,3 +12,7 @@ I made this sample code because the one I found on the documentation or the proj
 3. <img width="399" alt="Schermata 2022-05-27 alle 23 36 38" src="https://user-images.githubusercontent.com/92546954/170794725-d5c61c40-2623-42bf-bd0e-2c66a8405dfc.png">
 4. <img width="399" alt="Schermata 2022-05-27 alle 23 36 54" src="https://user-images.githubusercontent.com/92546954/170794752-df610a37-8346-4c8f-b70b-8e2833fc323a.png">
 
+**Screenshots**
+
+![Simulator Screen Shot - iPhone 11 - 2022-05-28 at 00 06 55](https://user-images.githubusercontent.com/92546954/170795028-18b9e331-9488-4887-8bfd-7bef4d2b6bc2.png)
+![Simulator Screen Shot - iPhone 11 - 2022-05-28 at 00 06 45](https://user-images.githubusercontent.com/92546954/170795029-a13dc1e3-290b-4182-b703-66bce567036d.png)
