@@ -1,5 +1,6 @@
 # GetGyroData & Accelerometer data
-Easy way to get gyroscope data using CoreMotion and SwiftUI for the UI.
+Easy way to get gyroscope and accelerometer data and write the output on a CSV. 
+I used CoreMotion for accessing the data and SwiftUI for the UI.
 I made this sample code because the one I found on the documentation or the projects aren't really working or updated. 
 
 *With the latest update you can record also Accelerometer data and write a CSV after pausing the recording*
