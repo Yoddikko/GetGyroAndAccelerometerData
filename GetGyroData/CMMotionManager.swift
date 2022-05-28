@@ -11,7 +11,6 @@ import CoreMotion
 class Motion {
     var motion = CMMotionManager()
     @Published var timer = Timer()
-    var count = 0
     
     func startAccelerometer() {
         if motion.isAccelerometerAvailable {
@@ -30,7 +29,6 @@ class Motion {
                     print("accelerometer data : \(data)")
                     let accelTuple = (acceleration.x, acceleration.y, acceleration.z)
                     valuesArray.append(accelTuple)
-                    self.count += 1
                 }
             })
             // Add the timer to the current run loop.
@@ -63,7 +61,6 @@ class Motion {
                     
                     let gyroTuple = (x, y, z)
                     valuesArray.append(gyroTuple)
-                    self.count += 1
 
                 }
             })
@@ -83,6 +80,7 @@ class Motion {
             self.motion.stopAccelerometerUpdates()
             self.motion.stopGyroUpdates()
             createCSV(from: valuesArray)
+            valuesArray = []
             
         }
     }
